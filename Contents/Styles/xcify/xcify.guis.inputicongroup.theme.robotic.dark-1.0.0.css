@@ -12,21 +12,21 @@ body .sga-input-icon-group > select:-webkit-autofill:focus {
 }
 
 body .sga-input-icon-group {
-    border-color: #53575c;
-    background-color: #0d0e10;
+    border-color: #FFF;
+    background-color: #FFF;
 }
 
     body .sga-input-icon-group > input,
     body .sga-input-icon-group > select {
-        color: #ddd;
+        color: rgb(143, 143, 143);
     }
 
         body .sga-input-icon-group > select:invalid {
-            color: #777;
+            color: #FFF;
         }
 
         body .sga-input-icon-group > select option {
-            background-color: #0d0e10;
+            background-color: #FFF;
         }
 
     body .sga-input-icon-group > span {
@@ -34,12 +34,12 @@ body .sga-input-icon-group {
     }
 
     .sga-input-icon-group:before {
-        color: #999;
-        border-color: #777;
+        color: #008ad4;
+        border-color: #008ad4;
     }
 
 body .sga-input-icon-group.error {
-    border: 2px solid #f33;
+    border: 2px solid rgb(240, 23, 23);
 }
 
     body .sga-input-icon-group.error > input,
@@ -49,17 +49,17 @@ body .sga-input-icon-group.error {
     }
 
 body .sga-input-icon-group.disabled {
-    color: #777;
+    color: #005888;
     border-color: #53575c;
-    background-color: #3d3e40;
+    background-color: #EAEAEA;
 }
 
     body .sga-input-icon-group.disabled > input,
     body .sga-input-icon-group.disabled > select {
-        color: #777;
+        color: #EAEAEA;
     }
 
     body .sga-input-icon-group.disabled:before {
-        color: #777;
-        border-color: #666;
+        color: #EAEAEA;
+        border-color: #EAEAEA;
     }
