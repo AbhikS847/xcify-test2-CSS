@@ -6,7 +6,7 @@ body .sga-input-icon-group > select:-webkit-autofill:hover,
 body .sga-input-icon-group > select:-webkit-autofill:focus {
     color: #ddd;
     background-color: transparent !important;
-    -webkit-text-fill-color: #aa0;
+    -webkit-text-fill-color: #FFF;
     -webkit-box-shadow: 0 0 0px 0px #000 inset;
     transition: background-color 5000s ease-in-out 0s;
 }
