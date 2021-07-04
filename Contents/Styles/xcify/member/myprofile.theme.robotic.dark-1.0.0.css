@@ -1,0 +1,41 @@
+﻿.container-pointearned > .timeline > .row::after {
+    background-color: #f99 !important;
+}
+
+.container-pointearned > .timeline > .row > .content::after {
+    background-color: #f77 !important;
+}
+
+.container-pointearned > .timeline > .row > .content > .title {
+    color: #bca46c !important;
+}
+
+.container-pointearned > .timeline > .row > .content > .desc,
+.container-profileform .verifyaction {
+    color: #88f !important;
+}
+
+    .container-pointearned > .timeline > .row > .content > .desc > span[onclick]:hover,
+    .container-profileform .verifyaction:hover {
+        color: #66f !important;
+    }
+
+    .container-pointearned > .timeline > .row > .content > .desc > .success {
+        color: #af8 !important;
+    }
+
+.container-pointearned > .timeline > .row.completed::after {
+    background-color: #af8 !important;
+}
+
+.container-pointearned > .timeline > .row.completed > .content::after {
+    background-color: #9f7 !important;
+}
+
+.container-pointearned > .timeline > .row.completed > .content > .desc {
+    color: #ddd !important;
+}
+
+.container-profileform .title {
+    color: #ccb47c;
+}
